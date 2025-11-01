@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Данные (большие CSV файлы)
+data/raw/*.csv
+data/processed/*.csv
+
+# Модели (большие файлы)
+results/models/*.pkl
+results/models/*.joblib
+
+# Системные файлы macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Временные файлы
+*.log
+*.tmp
